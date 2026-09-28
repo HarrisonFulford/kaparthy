@@ -1,0 +1,77 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.suggest.preview": false,
+  "editor.suggest.showWords": false,
+  "editor.suggest.showSnippets": false,
+  "editor.snippetSuggestions": "none",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  "editor.hover.sticky": false,
+
+  "cursor.completions.enabled": false,
+  "cursor.cpp.disabledLanguages": [
+    "python",
+    "jupyter",
+    "plaintext",
+    "markdown",
+    "json",
+    "jsonc",
+    "shellscript",
+    "raw",
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "yaml",
+    "toml",
+    "dockerfile",
+    "ignore",
+    "pip-requirements"
+  ],
+
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.completeFunctionParens": false,
+
+  "notebook.inlineValues.enabled": false,
+  "notebook.formatOnCellExecution": false,
+
+  "[python]": {
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.tabCompletion": "off"
+  },
+  "[jupyter]": {
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false
+  },
+  "[raw]": {
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    }
+  }
+}
